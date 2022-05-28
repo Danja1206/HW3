@@ -26,6 +26,7 @@ public:
         QUEEN,
         KING
     };
+    Card(value _value = ACE, suit _suit = SPADES, bool _cardPosition = true) : v(_value), s(_suit), cardPosition(_cardPosition) {}
     void Flip() 
     {
         if (!cardPosition)
