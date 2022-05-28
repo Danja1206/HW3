@@ -48,7 +48,7 @@ private:
 
 int main()
 {
-    Card C;
-    C.Flip();
-    C.getValue();
+    Card* C = new Card;
+    cout C->getValue();
+    C->Flip();
 }
