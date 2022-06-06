@@ -7,7 +7,7 @@ class Figure
 {
 public:
     Figure() {}
-    virtual void area() {}
+    virtual void area() = 0 {}
 protected:
     const double PI = acos(-1.0);
 };
