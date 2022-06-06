@@ -24,7 +24,7 @@ public:
     ~Bus() {}
 };
 
-class Minivan : PassengerCar, Bus
+class Minivan : virtual PassengerCar, Bus
 {
 public:
     Minivan(string _company, string _model) : PassengerCar(_company, _model), Bus(_company, _model) { cout << _company << " " << _model << endl; }
